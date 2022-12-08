@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P0dG5G05TYuoNyYyn9WmKLRPraX3bgRqU9is1FnKFEH1nx0utlLZCtF9HEpcdH0JVJgmzA9uF9wMU0kQjcqUFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bfederici\\desktop\\app\\app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bfederici\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
