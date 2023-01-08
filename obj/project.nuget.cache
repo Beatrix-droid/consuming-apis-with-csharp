@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "P0dG5G05TYuoNyYyn9WmKLRPraX3bgRqU9is1FnKFEH1nx0utlLZCtF9HEpcdH0JVJgmzA9uF9wMU0kQjcqUFQ==",
+  "dgSpecHash": "3OT5Usjhjth4q1yfM5VKCrj5WcjbD04u+qJVuXUswmTBcdI1wBvCysdC8bvg4v1MBzQOaXDDFCeyW2nEBeO8dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\bfederici\\desktop\\app\\app.csproj",
+  "projectFilePath": "/workspaces/consuming-apis-with-csharp/app.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\bfederici\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512"
+    "/home/codespace/.nuget/packages/json.more.net/1.7.0/json.more.net.1.7.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/jsonpath.net/0.3.1/jsonpath.net.0.3.1.nupkg.sha512",
+    "/home/codespace/.nuget/packages/newtonsoft.json/13.0.2/newtonsoft.json.13.0.2.nupkg.sha512",
+    "/home/codespace/.nuget/packages/restsharp/108.0.3/restsharp.108.0.3.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/system.text.json/6.0.2/system.text.json.6.0.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,11 +4,21 @@ using RestSharp;
 using System.Linq;
 using System.Net.Http;
 using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace csharp_test;
-class Program{
 
-static void Main(string[] args){
+//deserialise the json
+
+
+
+class Program{
+ 
+
+    // a method that takes a json string as an input and returns an object belonging to the API-repsonse class that takes the json and sorts it
+
+
+    static void Main(string[] args){
 
     Console.WriteLine("Please enter the name of the city you wish to view the weather forecast of:");
     
@@ -31,7 +41,10 @@ static public string getweather(string url){
     var client = new RestClient(url);
     var response = client.Execute(new RestRequest());
     if (response != null){
-        return response.Content;
+        var json = response.Content;
+        //Api_response deserialised_json = DeserializeJson(json);
+        API_Response deserialised_json = JsonConvert.DeserializeObject<API_Response>(json);
+        return deserialised_json.coordinates;
     }
     else{
         string message= "No data returned by the Api, make sure that you have an internet connection and that you have entered the city name correctly";
@@ -39,4 +52,9 @@ static public string getweather(string url){
     }
 
 }
+
+    private static JsonSerializerOptions? JsonSerializerOptions()
+    {
+        throw new NotImplementedException();
+    }
 }

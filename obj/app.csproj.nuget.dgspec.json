@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bfederici\\desktop\\app\\app.csproj": {}
+    "/workspaces/consuming-apis-with-csharp/app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bfederici\\desktop\\app\\app.csproj": {
+    "/workspaces/consuming-apis-with-csharp/app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bfederici\\desktop\\app\\app.csproj",
+        "projectUniqueName": "/workspaces/consuming-apis-with-csharp/app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\bfederici\\desktop\\app\\app.csproj",
-        "packagesPath": "C:\\Users\\bfederici\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bfederici\\desktop\\app\\obj\\",
+        "projectPath": "/workspaces/consuming-apis-with-csharp/app.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/consuming-apis-with-csharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bfederici\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -38,6 +38,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "JsonPath.Net": {
+              "target": "Package",
+              "version": "[0.3.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
             "RestSharp": {
               "target": "Package",
               "version": "[108.0.3, )"
@@ -59,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.101/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }
